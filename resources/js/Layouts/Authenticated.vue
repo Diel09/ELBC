@@ -21,7 +21,7 @@ const showingNavigationDropdown = ref(false);
                             <!-- Logo -->
                             <div class="shrink-0 flex items-center">
                                 <Link :href="route('dashboard')">
-                                    <BreezeApplicationLogo class="block h-9 w-auto"     />
+                                    <BreezeApplicationLogo class="block h-9 w-auto"/>
                                 </Link>
                             </div>
 
@@ -77,7 +77,7 @@ const showingNavigationDropdown = ref(false);
                 <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="sm:hidden">
                     <div class="pt-2 pb-3 space-y-1">
                         <BreezeResponsiveNavLink :href="route('dashboard')" :active="route().current('dashboard')">
-                            Dashboard
+                            Young People
                         </BreezeResponsiveNavLink>
                     </div>
 
