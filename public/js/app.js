@@ -22316,10 +22316,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, " Points "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "col",
   "class": "px-6 py-3"
-}, " Add points "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
-  scope: "col",
-  "class": "px-6 py-3"
-}, " Action ")])], -1 /* HOISTED */);
+}, " Add points "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <th scope=\"col\" class=\"px-6 py-3\">\r\n                                        Action\r\n                                    </th> ")])], -1 /* HOISTED */);
 var _hoisted_7 = {
   "class": "bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
 };
@@ -22342,16 +22339,6 @@ var _hoisted_12 = {
 };
 var _hoisted_13 = ["onUpdate:modelValue"];
 var _hoisted_14 = ["onClick"];
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", {
-  "class": "px-6 py-4 text-left"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "#",
-  "class": "font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2"
-}, "Edit"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "#",
-  "class": "font-medium text-blue-600 dark:text-blue-500 hover:underline"
-}, "Delete")], -1 /* HOISTED */);
-
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
   var _component_BreezeAuthenticatedLayout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("BreezeAuthenticatedLayout");
@@ -22373,7 +22360,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             return $options.addPoints(young.id, $data.point[young.id]);
           },
           "class": "text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        }, "Add", 8 /* PROPS */, _hoisted_14)])]), _hoisted_15]);
+        }, "Add", 8 /* PROPS */, _hoisted_14)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <td class=\"px-6 py-4 text-left\">\r\n                                        <a href=\"#\" class=\"font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2\">Edit</a>\r\n                                        <a href=\"#\" class=\"font-medium text-blue-600 dark:text-blue-500 hover:underline\">Delete</a>\r\n                                    </td> ")]);
       }), 256 /* UNKEYED_FRAGMENT */))])])])])])])];
     }),
 
